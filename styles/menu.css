@@ -1,0 +1,18 @@
+:root {
+  --orange: #E05C3A;
+  --orange-light: #F07A5A;
+  --orange-pale: #FDF0EB;
+  --brown: #2C1810;
+  --brown-mid: #4A2C1A;
+  --brown-light: #7A4A30;
+  --white: #FFFFFF;
+  --cream: #FDF8F4;
+  --cream2: #F5EDE4;
+  --text: #2C1810;
+  --muted: #9A7060;
+  --border: rgba(44,24,16,0.1);
+  --radius: 20px;
+  --radius-sm: 12px;
+}
+
+
