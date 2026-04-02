@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+
+    <!-- //////////////////////////HEADER SECTION -->
+    <header>
+
+        <div class="logo">
+           <a href="#" class="nav-logo">Quick<span>Bite</span></a>
+        </div>
+
+
+        <nav>
+            <ul>
+                <a href="index.html" >
+                    <div class="active">
+                     <img src="icons/house-blank (1).png" alt="">
+                    <li>home</li>
+                    </div>
+                    
+                </a>
+                <a href="menu.html">
+                    <!-- <img src="icons/rectangle-list.png" alt=""> -->
+                    <li>menu</li>
+                </a>
+                <a href="restaurant.html">
+                    <!-- <img src="icons/room-service.png" alt=""> -->
+                    <li>resaturant</li>
+                </a>
+                <a href="">
+                    <!-- <img src="" alt=""> -->
+                    <li>cart</li>
+                </a>
+            </ul>
+        </nav>
+
+
+        <div class="right">
+           
+
+            <button>order now</button>
+        </div>
+
+    </header>
+    <!-- ///////////////////HEADER SECTION ENDS HERE -->
+
+
+
+    <!-- /////////////////////////////// HERO SECTION -->
+
+    <div class="hero">
+
+
+        
+        <!-- ///////////// SECTION1 -->
+        <div class="section1">
+            <div class="hero-pill">
+      <div class="hero-pill-dot"></div>
+      Now delivering in Abuja
+    </div>
+         <h1 class="first_text">Your Favorite   <br>Restaurants, <span>One Place</span> </h1>
+         <p>Explore a variety of top restaurants, discover meals you love, and enjoy fast, reliable delivery — all from one simple and convenient platform.</p> 
+        <div class="cta">
+            <button class="order">Order Now →</button>
+            <button class="view">view restaurants</button>
+        </div>
+         <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">500+</span>
+        <span class="stat-lbl">Menu items</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">25 min</span>
+        <span class="stat-lbl">Avg delivery</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">4.9 ★</span>
+        <span class="stat-lbl">Rating</span>
+      </div>
+    </div>
+        </div>
+        <!--  /////////////////SECTION1 ENDS HERE -->
+
+
+        <!-- ///////////////////////SECTION2 -->
+        <div class="section2">
+
+            <div class="content1">
+                <div class="box1">
+                    <img src="images/eugene-krasnaok-ojDzHZHcVx4-unsplash.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <img src="images/marek-mucha-a74X5kHDs20-unsplash.jpg" alt="">
+                </div>
+            </div>
+            <div class="content2">
+                <div class="box3">
+                    <img src="images/parnis-azimi-dIbPZcftpL8-unsplash.jpg" alt="">
+                </div>
+                <div class="box4">
+                    <img src="images/rakhmat-suwandi-aseI9y_OCHs-unsplash.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- ////////////////////////SECTION2 ENDS HERE -->
+
+        
+    </div>
+
+    <!-- /////////////////////HERO SECTION ENDS HERE -->
+
+        
+            <!-- //////////////////FEATURED FOOD SECTION -->
+
+        <div class="featured">
+
+            <div class="featured-header">
+    <div>
+      <div data-aos="fade-right" class="section-tag">Featured dishes</div>
+      <h2  data-aos="fade-right" class="section-heading">Today's Best Picks</h2>
+      <p data-aos="fade-right"class="section-sub">Freshly prepared and ready to order right now.</p>
+    </div>
+    <a href="#" class="see-all">See all menu →</a>
+  </div>
+             
+            <div class="container">
+                <div class="content1">
+
+                    <!--////////// POPULAR DISH -->
+                    <div data-aos="zoom-in-up"  class="box1">
+                      <div class="food-img">
+                        <img src="images/mohammad-fahim-pvqcYluq7UI-unsplash.jpg" alt="">
+                       
+                    </div>
+                    <div class="food-content">
+                        <div>
+                        <div class="food-cat">Rice dishes</div>
+                        <div class="food-name">Jollof Rice + Chicken</div>
+                        <p class="food-desc">The classic Nigerian party rice, slow-cooked in rich tomato stew with a smoky finish. Served with a whole grilled chicken leg.</p>
+                        </div>
+                        <div class="food-footer">
+                        <span class="food-price">₦2,800</span>
+                        <button class="add-circle" onclick="addToCart(this)">+</button>
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div class="mid">
+                        <div data-aos="zoom-in-up" class="box2">
+                            <img src="images/chad-montano-MqT0asuoIcU-unsplash.jpg" alt="">
+                            <div class="overlay-text">
+                                <p>Get it at</p>
+                                <h4>peppys kitchen</h4>
+                                <button>view  →</button>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in-up" class="box3">
+                            <img src="images/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg" alt="">
+                             <div class="overlay-text">
+                                <p>Get it at</p>
+                                <h4>munch box</h4>
+                                <button>view  →</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in-up" class="box4">
+                        <img src="images/yoad-shejtman-8ctWCIEFtss-unsplash.jpg" alt="">
+                        <div class="overlay-text">
+                                <p>Get it at</p>
+                                <h4>continental special</h4>
+                                <button>view  →</button>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="content2">
+                    <div class="top">
+                        <div data-aos="zoom-in-up" class="box5">
+                            
+      <div class="food-img" style="font-size:52px">
+        <img src="images/parnis-azimi-dIbPZcftpL8-unsplash.jpg" alt="">
+      </div>
+      <div class="food-content">
+        <div class="food-cat">Soups</div>
+        <div class="food-name">Egusi Soup</div>
+        <p class="food-desc">With pounded yam or eba</p>
+        <div class="food-footer">
+          <span class="food-price">₦1,800</span>
+          <button class="add-circle" onclick="addToCart(this)">+</button>
+        </div>
+      
+    </div>
+                        </div>
+                        <div data-aos="zoom-in-up" class="box6">
+                            <div class="food-img" style="font-size:52px">
+                                <img src="images/marek-mucha-a74X5kHDs20-unsplash.jpg" alt="">
+        <!-- <span class="food-badge" style="background:var(--brown)">New</span> -->
+      </div>
+      <div class="food-content">
+        <div class="food-cat">Grills</div>
+        <div class="food-name">Suya Chicken</div>
+        <p class="food-desc">Spicy skewered perfection</p>
+        <div class="food-footer">
+          <span class="food-price">₦2,500</span>
+          <button class="add-circle" onclick="addToCart(this)">+</button>
+        </div>
+      </div>
+                        </div>
+                    </div>
+                    
+                    <div data-aos="zoom-in-up" class="box7">
+                        <div class="food-img">
+                        <img src="images/marek-mucha-a74X5kHDs20-unsplash.jpg" alt="">
+                       
+                    </div>
+                    <div class="food-content">
+                        <div>
+                        <div class="food-cat">Rice dishes</div>
+                        <div class="food-name">Jollof Rice + Chicken</div>
+                        <p class="food-desc">The classic Nigerian party rice, slow-cooked in rich tomato stew with a smoky finish. Served with a whole grilled chicken leg.</p>
+                        </div>
+                        <div class="food-footer">
+                        <span class="food-price">₦2,800</span>
+                        <button class="add-circle" onclick="addToCart(this)">+</button>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="bottom">
+                        <div data-aos="zoom-in-up" class="box8">
+                            <img src="images/emanuel-ekstrom-KJOUnsGXq58-unsplash.jpg" alt="">
+                             <div class="overlay-text">
+                                <p>Get it at</p>
+                                <h4>ase cafe</h4>
+                                <button>view  →</button>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in-up" class="box9">
+                            <img src="images/nicholas-grande-d9jcPTRD9fo-unsplash.jpg" alt="">
+                             <div class="overlay-text">
+                                <p>Get it at</p>
+                                <h4>bush cafe</h4>
+                                <button>view  →</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--//////////////////////////////// FEATURED SECTIONN ENDS HERE -->
+
+
+        <!-- //////////////////WHY CHOOSE US SECTION -->
+
+        <div class="why">
+        <div class="why-header">
+    <div data-aos="fade-up" class="section-tag">Why QuickBite</div>
+    <h2 data-aos="fade-up" class="section-heading">We Make It Easy to Eat Well</h2>
+    <p data-aos="fade-up" class="section-sub">More than just delivery — a full experience designed around you.</p>
+  </div>
+
+  <div class="container">
+    <div class="content">
+      <div class="top">
+        <div data-aos="fade-right" class="left">
+            <div class="text">
+                <h3>Easy reorders </h3>
+            <p>Your order history is saved so you can reorder your favourites in one tap.</p>
+            </div>
+            <img src="images/undraw_order-food_c92i.svg" alt="">
+        </div>
+        <div class="right">
+            <div data-aos="fade-left" class="right_top">
+                <div class="text">
+                    <h3>fast delivery</h3>
+                <p>Our riders are fast, our kitchen is ready, and your food arrives hot every time.</p>
+                </div>
+                <img src="images/undraw_on-the-way_zwi3.svg" alt="">                
+            </div>
+            <div class="right_bottom">
+                <div data-aos="zoom-in" class="box1">
+                    <div class="text">
+                         <h3>best restaurants</h3>
+                    <p>Every meal is prepared fresh by skilled local chefs — no frozen shortcuts.</p>
+                    </div>
+                    <img src="images/undraw_eating-together_mr7m.svg" alt="">                   
+                </div>
+                <div data-aos="zoom-in" class="box2">
+                    <div class="text">
+                        <h3>affordable prices</h3>
+                    <p>Cash on delivery, bank transfer, or card — all payment methods accepted.</p>
+                    </div>
+                    <img src="images/undraw_wallet_diag.svg" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+      <div data-aos="fade-up" class="bottom">
+        <div class="text">
+            <h3>rated the #1 food app in veritas</h3>
+        <p>Over 12,000 happy customers have made QuickBite their go-to for daily meals and special occasions</p>
+        </div>
+        <img src="images/undraw_user-feedback_5fp8.svg" alt="">
+      </div>
+  </div>
+
+  </div>
+        </div>
+        <!--///////////////// WHY CHOOSE US SECTION ENDS HERE -->
+
+
+
+        <!--////////// HOW IT WORKS SECTION -->
+
+        <div class="how">
+        <div class="how-header">
+    <div data-aos="fade-right" class="section-tag">The process</div>
+    <h2 data-aos="fade-right" class="section-heading">Ordering is Simple</h2>
+    <p data-aos="fade-right" class="section-sub">Four easy steps from craving to your doorstep.</p>
+  </div>
+
+  <div class="container">
+    <div class="section1">
+        <div class="content">
+            <div class="card">
+                <div data-aos="fade-right" class="image">
+                    <img src="images/undraw_order-food_c92i.svg" alt="">
+                </div>
+                <div class="text">Browse the menu</div>
+            </div>
+            
+            <div class="card" style="margin-left: 20%;">
+                <div class="text">add to cart</div>
+                <div data-aos="fade-right" class="image">
+                    <img src="images/undraw_shopping-app_b80f.svg" alt="">
+                </div>
+                
+            </div>
+            <div class="card">
+               <div data-aos="fade-right" class="image">
+                <img src="images/undraw_details_sgb2.svg" alt="">
+               </div>
+                <div class="text">enter delivery details</div>
+            </div>
+            <div class="card" style="margin-left: 20%">
+                <div class="text">get it delivered</div>
+                <div data-aos="fade-right" class="image">
+                    <img src="images/undraw_on-the-way_zwi3.svg" alt="">
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <div class="section2">
+        <div  data-aos="fade-left" class="text" style="margin-top: 50px;">
+            <div class="count">step 1</div>
+            <h3>browse the menu</h3>
+            <p>Open QuickBite and explore hundreds of dishes from local restaurants. Filter by category, price, or rating to find exactly what you're craving.</p>
+        </div>
+         <div data-aos="fade-left" class="text" style="margin-top: 50px;">
+            <div class="count">step 2</div>
+            <h3>add to cart</h3>
+            <p>Tap the + button on any dish to add it. Adjust quantities, add special instructions, and review your cart before checkout.</p>
+        </div>
+         <div data-aos="fade-left" class="text" style="margin-top: 50px;">
+            <div class="count">step 3</div>
+            <h3>enter delivery details</h3>
+            <p>Fill in your name, address, and phone number. Choose your preferred payment method — cash or card.</p>
+        </div>
+         <div data-aos="fade-left" class="text" style="margin-top: 30px;">
+            <div class="count">step 4</div>
+            <h3>get it delivered</h3>
+            <p>Open QuickBite and explore hundreds of dishes from local restaurants. Filter by category, price, or rating to find exactly what you're craving.</p>
+        </div>
+    </div>
+  </div>
+        </div>
+        <!-- ///////////////HOW IT WORKS SECTION ENDS HERE -->
+
+
+        <!--/////////// FINAL QUESTION SECTION -->
+        <div class="final">
+            <h2 data-aos="fade-up">ready to enjoy your meal?</h2>
+            <div data-aos="fade-up" class="button">
+                <button>order now</button>
+            </div>
+        </div>
+        <!-- ////////////FINAL QUESTION SECTION ENDS HERE -->
+
+        <!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo">Quick<span>Bite</span></div>
+      <p>Your favourite food, delivered fast. Serving Abuja's best local restaurants since 2025.</p>
+      <div class="footer-social">
+        <div class="social-btn">📘</div>
+        <div class="social-btn">📸</div>
+        <div class="social-btn">🐦</div>
+        <div class="social-btn">💬</div>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#featured">Menu</a></li>
+        <li><a href="#why">Restaurant</a></li>
+        <li><a href="#how">How it works</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Food categories</h4>
+      <ul>
+        <li><a href="#">Rice dishes</a></li>
+        <li><a href="#">Soups & stews</a></li>
+        <li><a href="#">Grills & BBQ</a></li>
+        <li><a href="#">Drinks</a></li>
+        <li><a href="#">Desserts</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact us</h4>
+      <ul>
+        <li><a href="#">📞 0901 234 5678</a></li>
+        <li><a href="#">✉️ hello@quickbite.ng</a></li>
+        <li><a href="#">📍 Wuse 2, Abuja</a></li>
+        <li><a href="#">⏰ 8am – 10pm daily</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2025 QuickBite. Built with HTML, CSS & JavaScript.</span>
+    <span>Made with ❤️ for the <a href="#">Abuja food scene</a></span>
+  </div>
+</footer>
+   
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>

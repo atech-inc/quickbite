@@ -1,0 +1,120 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* .montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+  :root {
+    --orange: #E05C3A;
+    --orange-light: #F07A5A;
+    --orange-pale: #FDF0EB;
+    --brown: #2C1810;
+    --brown-mid: #4A2C1A;
+    --brown-light: #7A4A30;
+    --white: #FFFFFF;
+    --cream: #FDF8F4;
+    --cream2: #F5EDE4;
+    --text: #2C1810;
+    --muted: #9A7060;
+    --border: rgba(44,24,16,0.1);
+    --radius: 20px;
+    --radius-sm: 12px;
+  }
+
+  .nav-logo {
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--orange);
+    text-decoration: none;
+    letter-spacing: -0.5px;
+  }
+
+  .nav-logo span { color: var(--brown); }
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+      font-family: "Nunito", sans-serif;
+      background: var(--cream);
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav{
+    width: 350px;
+    margin-top: 5px ;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+
+nav ul a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+     gap: 10px;
+}
+
+nav ul a img{
+    width: 14px;
+    height: 14px;
+    margin-top: 2px;
+}
+
+nav ul li{
+    list-style-type: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    /* color: #a1a1a1; */
+    font-size: .9rem;
+}
+
+nav ul a .active{
+    border: 1px solid #FF6B00;
+    display: flex;
+    padding: 5px 10px;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+nav ul a .active li{
+    color: #FF6B00;
+}
+
+
+/* .right{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.right button{
+    background-color: #FF6B00;
+    padding: 12px 25px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+}
