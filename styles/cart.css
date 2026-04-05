@@ -19,12 +19,19 @@
 
 .block1{
     margin-left: 35px;
+    
 
 
 }
 
+.block1 .mainText{
+    color: var(--brown);
+    font-weight: 900;
+}
+
 .block1 .subText{
     color: var(--brown-light);
+   
 
 }
 
@@ -46,6 +53,7 @@
 .items .itemImage{
     text-align: left;
     width: 150px;
+    max-height: 150px;
     border-radius: 20px;
     margin: 20px;
 
@@ -53,10 +61,17 @@
 
 }
 
+
 .items .description{
     text-align: justify;
     margin-top: 20px;
     
+}
+
+.items .description .name{
+    font-weight: 900;
+    color: var(--brown);
+
 }
 
 .items .descriptionItem{
@@ -68,7 +83,10 @@
     color: brown;
     font-weight: bold;
     border: hidden;
-    width: 70px;
+    width: 65px;
+    height: 18px;
+    padding-top: 2px;
+    padding-bottom: 5px;
     text-align: center;
     margin-top: 20px;
 
@@ -165,8 +183,16 @@
     width: 450px; 
     height: px;  
     z-index: 100;
+    animation: bounce 4s infinite ease-in-out alternate;
 }
-
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
 .checkout{
     
     text-align: right;
@@ -185,6 +211,8 @@
     padding-left: 50px;
     padding-top: 50px;
     padding-bottom: 30px;
+    color: var(--brown);
+    font-weight: 900;
 }
 
 .checkout .remH{
@@ -200,8 +228,12 @@
     top: 113px;
 }
 .checkout .line{
+    
     margin: 20px auto;
     width: 300px;
+    border: none;
+    height: 0.5px;
+    background-color: var(--brown-mid);
     
    
 }
@@ -217,6 +249,10 @@
     color: var(--brown-light);
 }
 
+.checkoutTotal #thick1{
+    color: var(--brown);
+    font-weight: 900;
+}
 
 .checkoutTotal .ArrivalTime{
     position: absolute;
@@ -230,7 +266,10 @@
     
     
 }
-
+.checkoutTotal .ArrivalTime #thick{
+    color: var(--brown);
+    font-weight: 900;
+}
 .checkoutButtonContainer{
     text-align: center;
     padding-top: 50px;
@@ -247,7 +286,15 @@
     height: 40px;
     color: white;
     font-weight: 700;
+    gap: 8px;
+    transition: width 0.3s ease, background-color 0.3s ease;
 }
+.checkoutButton:hover{
+    width: 150px;
+    background-color: #e67e22;
+
+}
+
 
 footer {
     background: var(--brown-mid); color: rgba(255,255,255,0.6);
