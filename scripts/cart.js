@@ -178,3 +178,8 @@ callCartCheckout.innerHTML = cartCheckout(total,estimatedDelivery,serviceFee,gra
 //    console.log(item.addFoodCard()) 
 // })
 
+document.addEventListener("DOMContentLoaded", ()=>{
+    const saved = localStorage.getItem("cart")
+    const cartObj = JSON.parse(saved)
+    console.log(cartObj)
+})
