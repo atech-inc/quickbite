@@ -449,6 +449,19 @@ position: absolute;
   border: none;
 }
 
+
+#take{
+    width: 80px;
+  text-transform: capitalize;
+  font-family: "Nunito", sans-serif;
+  padding: 5px;
+  border-radius: 10px;
+  color: var(--white);
+  background-color: var(--orange-light);
+  border: none;
+  cursor: pointer;
+}
+
 .featured .content1 .box4 .overlay-text button{
    width: 80px;
   text-transform: capitalize;

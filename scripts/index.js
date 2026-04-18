@@ -1,12 +1,16 @@
 const view = document.querySelector('.view');
-const orderBtn = document.querySelector('.order');
+const orderBtn = document.getElementsByClassName('.order');
+const orders = document.getElementById("orders")
 
-orderBtn.addEventListener('click', () => {
+orders.addEventListener('click', () => {
     window.location.href = 'menu.html';
 });
 
+
+
+
 view.addEventListener('click', () => {
-    window.location.href = 'restaurant.html';
+    window.location.href = 'menu.html';
 });
 
 
