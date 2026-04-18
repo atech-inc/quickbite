@@ -61,7 +61,7 @@ let total = document.getElementById("total")
                 <div class = description>
                 
                 <h4 class = "name" >${items.name}</h4>
-            <p class = descriptionItem> <small> <b>  </b></small></p>
+            <p class = descriptionItem> <small> <b>${items.desc}  </b></small></p>
             <div class = "placeHold" >Munch Box
 
             </div>
