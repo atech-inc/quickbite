@@ -1,7 +1,7 @@
 /// TO DISPLAY ITEMS IN THE MENU//////////////
 let allItems = [...rice, ...Swallows, ...Soups, ...Grills, ...Drinks]
-let total = document.getElementById("showing-count")
-let total_count = 0
+
+
 
 let cat_num = document.querySelectorAll(".cat-tag")
 
@@ -10,10 +10,7 @@ function displayItems(arrayItems, gridId){
    let grid = document.getElementById(gridId)
    grid.innerHTML = ""
 
-    let section = grid.closest("section")
-   let tag = section.querySelector(".cat-tag")
 
-    let count = 0
 
       /// LOOP THROUGH TO GET EACH ITEM IN THE ARRAY////////////////
         arrayItems.forEach((items)=>{
@@ -42,17 +39,8 @@ function displayItems(arrayItems, gridId){
 
 
 
-    // TO KNOE THE COUNT OF EACH ITEM PER SECTION
-     count = arrayItems.length
-     tag.innerText = count + " items"
-
-     // TO KNOW THE TOTAL COUNT OF ALL ITEMS
-     total_count += count
-     total.innerHTML = total_count
    
-   
-
-
+ 
 
     
 }
@@ -77,7 +65,7 @@ let search = document.getElementById("searchInput")
 search.addEventListener("input", (e) => {
     let value = e.target.value.toLowerCase()
 
-    total_count = 0
+   
 
     let filteredRice = rice.filter(item =>
         item.name.toLowerCase().includes(value)
